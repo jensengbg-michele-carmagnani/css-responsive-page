@@ -4394,3 +4394,56 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+body {
+    background-color: #F8F8F8;
+  }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .target{
+    display: none;
+  }
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+
+     
+button{
+  background-color: #536DFE;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+    width: 100px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px){
+  .menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .fas.fa-bars{
+    display: none;
+  }
+  .target{
+    display: block;
+  }
+  .wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+}
