@@ -4406,7 +4406,10 @@ body {
   }
   .target{
     display: none;
+    text-decoration: none;
   }
+ 
+
 main{
   display: flex;
   flex-direction: column;
@@ -4440,6 +4443,7 @@ footer {
   }
   .target{
     display: block;
+    font-size: 20px;
   }
   .wrapper{
     display: flex;
